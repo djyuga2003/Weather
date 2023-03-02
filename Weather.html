@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Forecast</title>
+</head>
+
+<style>
+    body {
+        background-image: url(images/Weather\ Image.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+    }
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+    }
+    p {
+        color: gray;
+    }
+    h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+    }
+
+    .bar input[type=text] {
+  float: center;
+  padding: 3.5px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 21px;
+}
+</style>
+<body>
+
+<h1><center>Weather For You</center></h1>
+
+<center><p style="font-family: sans-serif;" id = "find">Welcome to our Weather Forecast Page!!!. We are here to give you climate condotions that you are here to look for... </p></center>
+
+
+<h1><center>Enter the Location you want to Get info about</center></h1>
+
+<div class="bar">
+<form style="text-align: center;">
+    <input type="text" placeholder=" Search City..." name="search">
+    <button type="submit">SUBMIT</button>
+</form>
+</div>
+<button type="button" placeholder="Click on Me!!!" onclick="funClick()">
+</button>
+
+<script src="index.js">
+
+</script>
+</body>
+</html>
