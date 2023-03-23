@@ -1,0 +1,39 @@
+form#search-bar {
+    text-align: center;
+    font-family: Times New Roman;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.label {
+
+    font-size: 250%;
+}
+
+div#box {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+div#temp1,
+div#temp2,
+div#temp3,
+div#temp4,
+div#temp5,
+div#temp6,
+div#temp7 {
+    text-align: center;
+    opacity: 75%;
+}
+
+body {
+    background-image: url(weather-patterns-web.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
